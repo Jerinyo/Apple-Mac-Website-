@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <title>Apple - Macbook Pro</title>
+</head>
+<body>
+<header class="header">
+    <div class="header__left-column">
+        <div class="header__logo">
+            <img class="header__logo__image" src="./images/Apple_logo_grey.png" alt="apple logo grey"/>
+            <p class="header__logo__text">Apple</p>
+        </div>
+        <nav class="nav">
+            <a class="nav__link" href="https://www.apple.com/store">Store</a>
+            <a class="nav__link" href="https://www.apple.com/shop/accessories/all">Accessories</a>
+            <a class="nav__link" href="https://www.apple.com/newsroom/">Blog</a>
+            <a class="nav__link" href="https://support.apple.com/">Support</a>
+        </nav>
+    </div>
+    <div class="header__right-column">
+       <div class="header-search">
+  <!-- Toggle -->
+  <input type="checkbox" id="search-toggle">
+  <!-- Magnifying glass icon -->
+  <label for="search-toggle" class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></label>
+
+  <!-- Header-width search overlay -->
+  <div class="search-overlay">
+    <!-- Close button -->
+    <label for="search-toggle" class="close-overlay">&times;</label>
+    <!-- Suggestions -->
+    <ul class="search-suggestions">  
+      <li><a href="https://www.apple.com/store">Store</a></li>
+      <li><a href="https://www.apple.com/shop/accessories/all">Accessories</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+        <div class="cart-icon-wrapper">
+            <a href="#basketDropdown" class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-count">1</span>
+            </a>
+            <div id="basketDropdown" class="basket-dropdown">
+                <div class="basket-content">
+                    <a href="#" class="close">&times;</a>
+                    <h2 class="basket-title">In Your Basket</h2>
+                    <div class="basket-item">
+                        <img src="./images/mbp.png" alt="Macbook Pro 2024">
+                        <div class="basket-item-details">
+                            <h3>Macbook Pro 2025</h3>
+                            <p>Price: $1999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="hero fade-in">
+        <div class="hero__image">
+            <img src="./images/mbp.png" alt="Macbook Pro 2024">
+        </div>
+        <div class="hero__text">
+            <h1 class="hero__title">Macbook Pro 2025</h1>
+            <h2 class="hero__subtitle">Supercharged for pros.</h2>
+            <p class="hero__description">The most powerful MacBook Pro ever is here. With the blazing-fast M3 Pro or M3 Max chip — the first Apple silicon designed for pros — you get groundbreaking performance and amazing battery life. Add to that a stunning Liquid Retina XDR display, the best camera and audio ever in a Mac notebook, and all the ports you need. The first notebook of its kind, this MacBook Pro is a beast.</p>
+            <p class="hero__price">From $1999</p>
+            <div class="hero__buttons">
+                <a class="hero__button" href="#order">Order Now</a>
+                <a class="hero__playbutton" href="#videoModal"><i class="fa-solid fa-play"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="specs fade-in">
+        <div class="spec">
+            <h3 class="spec__title">3.7x</h3>
+            <p class="spec__description">faster CPU performance</p>
+        </div>
+        <div class="spec">
+            <h3 class="spec__title">13x</h3>
+            <p class="spec__description">faster graphics performance</p>
+        </div>
+        <div class="spec">
+            <h3 class="spec__title">11x</h3>
+            <p class="spec__description">faster machine learning</p>
+        </div>
+        <div class="spec">
+            <h3 class="spec__title">21</h3>
+            <p class="spec__description">hours battery life</p>
+        </div>
+    </section>
+</main>
+
+<!-- Video Modal Structure -->
+<div id="videoModal" class="modal">
+    <div class="modal-content">
+        <a href="#" class="close">&times;</a>
+<iframe width="560" height="315"
+    src="https://www.youtube.com/embed/IHTT_7AjoU8"
+    title="The new MacBook Pro | Built for Apple Intelligence"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+</iframe>
+
+
+    </div>
+</div>
+
+<footer class="footer fade-in">
+    <div class="footer__container">
+        <div class="footer__top">
+           <div class="footer__breadcrumbs">
+    <a href="https://www.apple.com/"><i class="fa-solid fa-apple"></i></a>
+    <span> > </span>
+    <a href="https://www.apple.com/mac/">Mac</a>
+    <span> > </span>
+    <a href="https://www.apple.com/macbook-pro/">MacBook Pro</a>
+    <span> > </span>
+    <a href="https://www.apple.com/macbook -pro-14-and-16/">MacBook Pro 14-inch and 16-inch</a>
+</div>
+
+        </div>
+
+        <div class="footer__middle">
+            <div class="footer__column">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="https://www.apple.com/mac/">Mac</a></li>
+  <li><a href="https://www.apple.com/ipad/">iPad</a></li>
+  <li><a href="https://www.apple.com/iphone/">iPhone</a></li>
+  <li><a href="https://www.apple.com/watch/">Watch</a></li>
+  <li><a href="https://www.apple.com/airpods/">AirPods</a></li>
+  <li><a href="https://www.apple.com/tv-home/">TV & Home</a></li>
+  <li><a href="https://www.apple.com/airtag/">AirTag</a></li>
+  <li><a href="https://www.apple.com/shop/accessories/all">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h4>Services</h4>
+                <ul>
+                   
+  <li><a href="https://www.apple.com/apple-music/">Apple Music</a></li>
+  <li><a href="https://www.apple.com/apple-tv-plus/">Apple TV+</a></li>
+  <li><a href="https://www.apple.com/apple-arcade/">Apple Arcade</a></li>
+  <li><a href="https://www.icloud.com/">iCloud</a></li>
+  <li><a href="https://www.apple.com/apple-one/">Apple One</a></li>
+  <li><a href="https://www.apple.com/apple-books/">Apple Books</a></li>
+  <li><a href="https://www.apple.com/apple-podcasts/">Apple Podcasts</a></li>
+  <li><a href="https://www.apple.com/store">App Store</a></li>
+</ul>
+
+            </div>
+            <div class="footer__column">
+                <h4>For Business</h4>
+                <ul>
+                    <li><a href="https://www.apple.com/business/">Apple and Business</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h4>Apple Values</h4>
+                <ul>
+                    <li><a href="https://www.apple.com/accessibility/">Accessibility</a></li>
+                    <li><a href="https://www.apple.com/environment/">Environment</a></li>
+                    <li><a href="https://www.apple.com/privacy/">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h4>About Apple</h4>
+                <ul>
+                    <li><a href="https://www.apple.com/careers/">Career Opportunities</a></li>
+                    <li><a href="https://investor.apple.com/">Investors</a></li>
+                    <li><a href="https://www.apple.com/compliance/">Ethics & Compliance</a></li>
+                    <li><a href="https://www.apple.com/newsroom/">Events / Newsroom</a></li>
+
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h4>Account</h4>
+                <ul>
+                    <li><a href="https://appleid.apple.com/">Manage Your Apple ID</a></li>
+                    <li><a href="https://www.icloud.com/">iCloud.com</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <span class="footer__bottom-retailer"><a href="#">Find a retailer</a> near you.</span>
+            <div class="footer__legal">
+                <span>Copyright © 2025 Apple Inc. All rights reserved.</span>
+                <a href="https://www.apple.com/legal/privacy/en-ww/">Privacy Policy</a>
+                <a href="https://www.apple.com/legal/">Legal</a>
+                <a href="https://www.apple.com/sitemap/">Site Map</a>
+                <span>United States</span>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
